@@ -40,8 +40,8 @@ class LoginViewController: UIViewController {
         
         NSLog("account == %@ ,password ==== %@", accout,password)
         let manager = BaseNetworkManager(domain: "https://httpbin.org")
-
-        manager.httpGet(path: "/get", params: ["" : "" as AnyObject], successBlk: { data in
+        
+        manager.httpGet(path: "/get", params: ["" : "" as AnyObject], successBlk: { statuscode,data in
             print(data)
             }) { (data) in
             print(data)
