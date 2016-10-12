@@ -8,6 +8,9 @@
 
 import UIKit
 
-class AccountApiManager: NSObject {
+class AccountApiManager: BaseNetworkManager {
+    func accountLogin(username : String , password : String) -> Void {
+        self.httpGet(path: "account/login", params: ["username" : username , "passwor" : password]);
     
+    }
 }

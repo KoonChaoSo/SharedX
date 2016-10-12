@@ -109,8 +109,6 @@
 			children = (
 				D83A5C451DA78EDE006152F3 /* Service */,
 				D83A5C441DA78ECF006152F3 /* ViewController */,
-				D83A5C471DA78F53006152F3 /* AccountInterceptor.swift */,
-				D8F418EF1DABD596003A99FA /* AccountApiManager.swift */,
 			);
 			name = Accout;
 			sourceTree = "<group>";
@@ -127,6 +125,8 @@
 		D83A5C451DA78EDE006152F3 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				D8F418EF1DABD596003A99FA /* AccountApiManager.swift */,
+				D83A5C471DA78F53006152F3 /* AccountInterceptor.swift */,
 			);
 			name = Service;
 			sourceTree = "<group>";
